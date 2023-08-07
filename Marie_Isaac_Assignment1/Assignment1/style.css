@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+
+
+}
+
+h1 {
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+color: azure;
+font-family: Arial, Helvetica, sans-serif;
+}
+  
+h3 {
+color: azure;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p {
+
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul.a {
+  list-style-position: inside;
+color: aliceblue
+;
+text-align: center;
+font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+.button {
+  background-color: aqua;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+
+  .center {
+    text-align: center;
+    border: 3px solid green;
+  }
+
+ 
+ 
+  #container{
+    display: grid;
+    grid-template-areas: 
+    'topheader'
+    'screenshot'
+    'Week2'
+    'Week3'
+   
+    ;
+text-align: center;
+   }
+
+  
+  #screenshot {
+border: 3px solid aqua;
+
+  }
+  
+  
+   #Week2 {
+grid-area: Week2;
+
+border: 5px dashed aqua;
+  
+}
+
+
+#Week3 {
+  grid-area: Week3;
+  
+  border: 3px dashed aqua;
+  
+  }
+
+  
